@@ -1,0 +1,387 @@
+/* reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #nav-principal {
+        width: 100%;
+        margin: 0 auto;
+    }
+   
+    #navbar {
+        background-color: green;
+        color: black;
+        padding: 50px;
+    }
+
+    #navbar ul a {
+        color: black;
+        text-decoration: none;
+        padding: 50px;
+
+    }
+
+.imagen-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+/* Resetear estilos y definir fuente principal */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el encabezado */
+#nav-principal {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.imagen-logo {
+    max-width: 100px;
+    vertical-align: middle;
+}
+
+/* Estilos para la sección de contacto */
+#contacto {
+    padding: 20px;
+    background-color: aquamarine;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#contacto p {
+    line-height: 1.6;
+}
+
+#contacto ul {
+    margin-top: 10px;
+}
+
+#contacto ul li {
+    margin-bottom: 5px;
+}
+
+/* Estilos específicos para enlaces y listas */
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffd700; /* Cambia el color al pasar el ratón */
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#navbar ul a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+#navbar ul a:hover {
+    background-color: #0056b3;
+}
+
+.imagen-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#proyectos {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+}
+
+h2 {
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cliente {
+    margin-bottom: 40px;
+}
+
+.cliente h3 {
+    color: #0056b3;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+
+}
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li {
+    margin: 0 15px;
+}
+
+#navbar ul a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+#navbar ul a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+.imagen-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#nosotros {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+}
+
+#nosotros h1 {
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#nosotros h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+#nosotros h3 {
+    color: #0056b3;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#nosotros p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#nosotros img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li {
+    margin: 0 15px;
+}
+
+#navbar ul a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+#navbar ul a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+.imagen-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#inicio {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+}
+
+#inicio .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#inicio h1, #inicio h2 {
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#inicio h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+#inicio h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+#inicio p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#inicio ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+#inicio ul ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#inicio ul li {
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#inicio img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    #navbar ul {
+        flex-direction: column;
+    }
+    
+    #navbar ul li {
+        margin: 10px 0;
+    }
+}
