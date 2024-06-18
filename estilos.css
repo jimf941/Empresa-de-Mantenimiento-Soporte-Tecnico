@@ -146,7 +146,14 @@ body {
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 900px;
+    max-width: 1000px;
+}
+
+#proyectos img {
+        display: block;
+        margin: 20px auto;
+        max-width: 60%;
+        border-radius: 50px;
 }
 
 h2 {
@@ -224,7 +231,7 @@ body {
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 #nosotros h1 {
@@ -257,9 +264,133 @@ body {
 #nosotros img {
     display: block;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 50%;
     border-radius: 10px;
     margin-bottom: 30px;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+    text-align: justify;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li {
+    margin: 0 15px;
+}
+
+#navbar ul a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+#navbar ul a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+.imagen-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#inicio {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+}
+
+#inicio .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#inicio h1, #inicio h2 {
+    color: #007BFF;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#inicio h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+#inicio h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+#inicio p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#inicio ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+#inicio ul ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#inicio ul li {
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#inicio img {
+    display: block;
+    margin: 20px auto;
+    max-width: 70%;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    #navbar ul {
+        flex-direction: column;
+    }
+    
+    #navbar ul li {
+        margin: 10px 0;
+    }
 }
 
 
@@ -313,75 +444,39 @@ body {
     vertical-align: middle;
 }
 
-#inicio {
+#contacto {
     background-color: #fff;
     padding: 40px 20px;
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 900px;
+    max-width: 1000px;
 }
 
-#inicio .content {
+#contacto .content {
     max-width: 800px;
     margin: 0 auto;
 }
 
-#inicio h1, #inicio h2 {
+#contacto h1 {
     color: #007BFF;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-#inicio h1 {
-    font-size: 2em;
-    margin-top: 0;
-}
-
-#inicio h2 {
-    font-size: 1.5em;
+#contacto h2 {
+    color: #0056b3;
     border-bottom: 2px solid #007BFF;
     padding-bottom: 10px;
     margin-top: 40px;
-}
-
-#inicio p {
-    line-height: 1.6;
     margin-bottom: 20px;
+    font-size: 100%
 }
 
-#inicio ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 20px;
-}
-
-#inicio ul ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    margin-top: 10px;
-}
-
-#inicio ul li {
-    background: #e9ecef;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-#inicio img {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-@media (max-width: 600px) {
-    #navbar ul {
-        flex-direction: column;
-    }
-    
-    #navbar ul li {
-        margin: 10px 0;
-    }
+    #contacto img {
+        display: block;
+        margin: 0 auto;
+        max-width: 80%;
+        border-radius: 10px;
+        margin-bottom: 30px;
 }
